@@ -3,7 +3,9 @@
 :root {
   --purple: rgba(98, 72, 131, 1);
   --white: rgba(255, 255, 255, 1);
+  --white-purple: rgba(128, 97, 167, 1);
   --dark: rgba(32, 32, 32, 1);
+  --white-dark: rgba(238, 238, 238, 1);
 }
 
 * {
@@ -56,6 +58,7 @@ input:focus {
   padding: 0 20px;
 }
 
+/* ---------------------------------------------- */
 /* header start */
 /* header top start */
 .header_top_wrapper {
@@ -104,98 +107,12 @@ input:focus {
   font-weight: 400;
   color: var(--white);
 }
-.header_bottom_wrapper {
-  background-color: var(--white);
-}
-.header_bottom_wrapper .header_wrapper_block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 7px 0;
-}
-.header_bottom_wrapper .header_wrapper_block .navbar_left_wrapper {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-.header_bottom_wrapper
-  .header_wrapper_block
-  .navbar_left_wrapper
-  .navbar_logo
-  img {
-  width: 100%;
-  max-width: 74px;
-}
-.header_bottom_wrapper
-  .header_wrapper_block
-  .navbar_left_wrapper
-  .navbar_links
-  .nav_items {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.header_bottom_wrapper
-  .header_wrapper_block
-  .navbar_left_wrapper
-  .navbar_links
-  .nav_items
-  a {
-  color: var(--dark);
-  font-size: clamp(12px, 1.5vw, 16px);
-  font-weight: 500;
-}
-.header_bottom_wrapper
-  .header_wrapper_block
-  .navbar_left_wrapper
-  .navbar_links
-  .nav_items
-  a:hover {
-  color: var(--purple);
-}
-.header_bottom_wrapper .header_wrapper_block .navbar_right_wrapper {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.header_bottom_wrapper .header_wrapper_block .navbar_right_wrapper .btn_left a {
-  color: var(--dark);
-  font-size: clamp(12px, 1.5vw, 16px);
-  font-weight: 500;
-  border: 1px solid var(--dark);
-  padding: 8px 20px;
-  border-radius: 8px;
-}
-
-.header_bottom_wrapper
-  .header_wrapper_block
-  .navbar_right_wrapper
-  .btn_right
-  a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--white);
-  font-size: clamp(12px, 1.5vw, 16px);
-  background-color: var(--purple);
-  font-weight: 500;
-  border: 1px solid var(--dark);
-  padding: 8px 20px;
-  border-radius: 8px;
-}
-.header_bottom_wrapper
-  .header_wrapper_block
-  .navbar_right_wrapper
-  .btn_right
-  a
-  img {
-  width: 19px;
-}
 /* header top end */
 
 /* header bottom start */
 .navbar {
   padding: 4px 0;
+  background-color: var(--white) !important;
 }
 .navbar-toggler {
   border-color: var(--purple);
@@ -231,6 +148,7 @@ input:focus {
   border-color: var(--dark);
   padding: 10px 20px;
   border-radius: 8px;
+  transition: all 0.3s ease-in;
 }
 .navbar .btn_right {
   font-size: clamp(12px, 1.4vw, 16px);
@@ -240,20 +158,111 @@ input:focus {
   color: var(--white);
   padding: 10px 20px;
   border-radius: 8px;
+  transition: all 0.3s ease-in;
+}
+.navbar .btn_left:hover {
+  color: var(--purple);
+  background-color: var(--white-dark);
+}
+.navbar .btn_right:hover {
+  background-color: var(--white-purple);
 }
 .navbar-toggler-icon {
   width: 1.3rem;
   height: 1.3rem;
 }
 /* header bottom end */
-
 /* header end */
+
+/* ---------------------------------------------- */
+/* main banner section start */
+#banner_section {
+  background-image: url("/Assets/Images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner_section .banner {
+  background-image: url("/Assets/Images/banner.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  aspect-ratio: 1440 / 900;
+  height: auto;
+  position: relative;
+}
+#banner_section .banner .banner_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+#banner_section .banner .banner_content .banner_content_header {
+  font-size: clamp(16px, 5vw, 56px);
+  font-weight: 500;
+  color: var(--white);
+}
+#banner_section .banner .banner_content .banner_content_title {
+  width: 100%;
+  max-width: 560px;
+  font-size: clamp(10px, 1.5vw, 18px);
+  font-weight: 400;
+  color: var(--white);
+}
+#banner_section .banner .banner_content .banner_content_btn {
+  padding: 12px 24px;
+  font-size: clamp(10px, 1.5vw, 16px);
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--purple);
+  border-radius: 8px;
+  transition: all 0.3s ease-in;
+}
+#banner_section .banner .banner_content .banner_content_btn:hover {
+  padding: 12px 24px;
+  font-size: clamp(10px, 1.5vw, 16px);
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--white-purple);
+  border-radius: 8px;
+}
+/* main banner section end */
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+/* About the Reward (Mukofot haqida) section start */
+
+/* About the Reward (Mukofot haqida) section end */
+/* ---------------------------------------------- */
 
 /* responsive design start */
 @media (max-width: 992px) {
   .navbar-collapse {
     margin: 5px 0 20px 0;
     border-top: 1px solid var(--purple);
+  }
+}
+
+@media (max-width: 576px) {
+  #banner_section .banner .banner_content {
+    top: 30%;
+  }
+  #banner_section .banner .banner_content .banner_content_title {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0.5rem;
+  }
+  #banner_section .banner .banner_content .banner_content_btn {
+    padding: 10px 10px;
   }
 }
 
