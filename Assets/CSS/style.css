@@ -295,12 +295,10 @@ input:focus {
 
 /* ---------------------------------------------- */
 /* Services section start */
-#services_section {
-  background-color: var(--purple);
-  padding: 100px 0;
-}
+
 #services_section .services_section_wrapper {
-  padding: 0 72px;
+  background-color: var(--purple);
+  padding: 100px 72px;
 }
 #services_section .services_section_wrapper .services_left_content {
   display: flex;
@@ -384,6 +382,14 @@ input:focus {
 /* Services section end */
 /* ---------------------------------------------- */
 
+/* ---------------------------------------------- */
+/* News Section start */
+#news_section{
+    
+}
+/* News Section end */
+/* ---------------------------------------------- */
+
 /* responsive design start */
 @media (max-width: 1200px) {
   /* reward section */
@@ -415,9 +421,7 @@ input:focus {
   /* reward section */
 
   /* services section */
-  #services_section .services_section_wrapper {
-    padding: 0;
-  }
+
   #services_section .services_section_wrapper .services_right_wrapper {
     padding: 50px 0 0 0;
   }
@@ -440,6 +444,11 @@ input:focus {
   #banner_section .banner .banner_content .banner_content_btn {
     padding: 10px 10px;
   }
+  /* services section  */
+  #services_section .services_section_wrapper {
+    padding: 80px 40px;
+  }
+  /* services section  */
 }
 
 @media (max-width: 476px) {
