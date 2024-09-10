@@ -177,13 +177,13 @@ input:focus {
 /* ---------------------------------------------- */
 /* main banner section start */
 #banner_section {
-  background-image: url("/Assets/Images/bg.png");
+  background-image: url("/Assets/Images/home/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #banner_section .banner {
-  background-image: url("/Assets/Images/banner.JPG");
+  background-image: url("/Assets/Images/home/banner.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,16 +236,192 @@ input:focus {
 
 /* ---------------------------------------------- */
 /* About the Reward (Mukofot haqida) section start */
+#reward_section {
+  padding: 100px 0;
+}
+#reward_section .reward_wrapper {
+  display: flex;
+  padding: 0 72px;
+}
+#reward_section .reward_wrapper .reward_image_wrapper img {
+  width: 100%;
+  /* max-width: 460px; */
+  border-radius: 16px;
+}
+#reward_section .reward_wrapper .reward_wrapper_content .reward_content_header {
+  color: var(--dark);
+  font-size: clamp(24px, 5vw, 80px);
+  font-weight: 800;
+}
+#reward_section .reward_wrapper .reward_wrapper_content .reward_content_title {
+  color: var(--dark);
+  font-size: clamp(14px, 1.2vw, 24px);
+  line-height: 36px;
+  font-weight: 400;
+}
+#reward_section
+  .reward_wrapper
+  .reward_wrapper_content
+  .reward_content_btn_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#reward_section
+  .reward_wrapper
+  .reward_wrapper_content
+  .reward_content_btn_wrapper
+  .reward_left_btn,
+.reward_right_btn {
+  border: 1px solid var(--purple);
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: var(--purple);
+  font-size: clamp(11px, 1vw, 16px);
+  transition: all 0.3s ease-in;
+}
+#reward_section
+  .reward_wrapper
+  .reward_wrapper_content
+  .reward_content_btn_wrapper
+  .reward_left_btn:hover,
+.reward_right_btn:hover {
+  background-color: var(--white-purple);
+  color: var(--white);
+}
 
 /* About the Reward (Mukofot haqida) section end */
 /* ---------------------------------------------- */
 
+/* ---------------------------------------------- */
+/* Services section start */
+#services_section {
+  background-color: var(--purple);
+  padding: 100px 0;
+}
+#services_section .services_section_wrapper {
+  padding: 0 72px;
+}
+#services_section .services_section_wrapper .services_left_content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 35px;
+}
+#services_section
+  .services_section_wrapper
+  .services_left_content
+  .services_left_content_text {
+  color: var(--white);
+  font-size: clamp(12px, 1vw, 16px);
+  font-weight: 600;
+}
+#services_section
+  .services_section_wrapper
+  .services_left_content
+  .services_left_content_header {
+  color: var(--white);
+  font-size: clamp(24px, 2vw, 48px);
+  font-weight: 700;
+}
+#services_section
+  .services_section_wrapper
+  .services_left_content
+  .services_left_content_title {
+  color: var(--white);
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: 400;
+  line-height: 30px;
+}
+#services_section
+  .services_section_wrapper
+  .services_left_content
+  .services_left_content_btn {
+  color: var(--white);
+  font-size: clamp(14px, 1.3vw, 18px);
+  font-weight: 400;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid var(--white);
+}
+#services_section
+  .services_section_wrapper
+  .services_left_content
+  .services_left_content_btn:hover {
+  background-color: var(--white-purple);
+}
+#services_section .services_section_wrapper .services_right_wrapper {
+  padding: 0 0 0 50px;
+}
+#services_section
+  .services_section_wrapper
+  .services_right_wrapper
+  .services_right_item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+}
+#services_section
+  .services_section_wrapper
+  .services_right_wrapper
+  .services_right_item
+  .services_item_header {
+  color: var(--white);
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 700;
+}
+#services_section
+  .services_section_wrapper
+  .services_right_wrapper
+  .services_right_item
+  .services_item_title {
+  color: var(--white);
+  font-size: clamp(14px, 1vw, 16px);
+  font-weight: 400;
+}
+/* Services section end */
+/* ---------------------------------------------- */
+
 /* responsive design start */
+@media (max-width: 1200px) {
+  /* reward section */
+  #reward_section
+    .reward_wrapper
+    .reward_wrapper_content
+    .reward_content_title {
+    line-height: 30px;
+  }
+  /* reward section */
+}
+
 @media (max-width: 992px) {
   .navbar-collapse {
     margin: 5px 0 20px 0;
     border-top: 1px solid var(--purple);
   }
+  /* reward section */
+  #reward_section .reward_wrapper {
+    display: flex;
+    padding: 0;
+  }
+  #reward_section .reward_wrapper .reward_wrapper_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0;
+  }
+  /* reward section */
+
+  /* services section */
+  #services_section .services_section_wrapper {
+    padding: 0;
+  }
+  #services_section .services_section_wrapper .services_right_wrapper {
+    padding: 50px 0 0 0;
+  }
+  /* services section */
 }
 
 @media (max-width: 576px) {
