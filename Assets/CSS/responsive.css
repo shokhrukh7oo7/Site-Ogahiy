@@ -1,0 +1,128 @@
+/* responsive design start */
+@media (max-width: 1200px) {
+  /* reward section */
+  #reward_section
+    .reward_wrapper
+    .reward_wrapper_content
+    .reward_content_title {
+    line-height: 30px;
+  }
+  /* reward section */
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    margin: 5px 0 20px 0;
+    border-top: 1px solid var(--purple);
+  }
+  /* reward section */
+  #reward_section .reward_wrapper {
+    display: flex;
+    padding: 50px 20px;
+  }
+  #reward_section .reward_wrapper .reward_wrapper_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0;
+  }
+  /* reward section */
+
+  /* services section */
+
+  #services_section .services_section_wrapper .services_right_wrapper {
+    padding: 50px 0 0 0;
+  }
+  /* services section */
+
+  /* news section */
+  #news_section .news_section_wrapper .news_card_wrapper .card_item {
+    margin: 10px 0;
+  }
+  /* news section */
+}
+
+@media (max-width: 768px) {
+  /* news section */
+  #news_section .news_section_wrapper {
+    padding: 100px 20px;
+  }
+  /* news section */
+
+  /* question section */
+  #question_section .question_content_wrapper {
+    padding: 100px 20px;
+  }
+  #question_section
+    .question_content_wrapper
+    .question_main_wrapper
+    .accordion_left {
+    padding: 0 25px;
+  }
+  #question_section
+    .question_content_wrapper
+    .question_main_wrapper
+    .accordion_right {
+    padding: 0 25px;
+  }
+  /* question section */
+
+  /* partners section */
+  #parnters_section .partners_content_wrapper {
+    padding: 100px 20px;
+  }
+  footer .section_padd {
+    padding: 0px 0 76px;
+  }
+
+  footer .footer_top_wrapper {
+    padding: 0 20px;
+  }
+  /* partners section */
+}
+
+@media (max-width: 576px) {
+  .header_top_wrapper .header_wrapper_block .language_wrapper .dropdown {
+    display: block;
+  }
+  .header_top_wrapper
+    .header_wrapper_block
+    .language_wrapper
+    .language_links_wrapper
+    .language_items {
+    display: none;
+  }
+  #banner_section .banner .banner_content {
+    top: 30%;
+  }
+  #banner_section .banner .banner_content .banner_content_title {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0.5rem;
+  }
+  #banner_section .banner .banner_content .banner_content_btn {
+    padding: 10px 10px;
+  }
+  /* services section  */
+  #services_section .services_section_wrapper {
+    padding: 80px 40px;
+  }
+  /* services section  */
+}
+
+@media (max-width: 476px) {
+  /* news section  */
+  #news_section
+    .news_section_wrapper
+    .news_card_wrapper
+    .card_item
+    .card_content {
+    padding: 20px 15px;
+  }
+  /* news section end */
+}
+/* responsive design  */
