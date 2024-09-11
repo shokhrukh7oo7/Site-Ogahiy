@@ -755,6 +755,88 @@ input:focus {
 /* partners section end */
 /* ---------------------------------------------- */
 
+/* ---------------------------------------------- */
+/* footer section start */
+footer {
+  background-color: var(--purple);
+}
+footer .section_padd {
+  padding: 100px 0 76px;
+}
+footer .footer_top_wrapper {
+  padding: 0 72px;
+}
+footer .footer_top_wrapper .footer_logo {
+  width: 100%;
+  max-width: 112px;
+}
+footer .footer_top_wrapper .footer_address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+footer .footer_top_wrapper .footer_address p {
+  color: var(--white);
+  font-size: clamp(13px, 1.5vw, 15px);
+  font-weight: 400;
+  margin: 0;
+}
+footer .footer_top_wrapper .footer_address p span {
+  font-weight: 700;
+}
+footer .footer_top_wrapper .footer_links_header {
+  font-weight: 600;
+  color: var(--white);
+  font-size: clamp(14px, 1.5vw, 19px);
+  margin-bottom: 25px;
+}
+footer .footer_top_wrapper .useful_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_top_wrapper .useful_links li a {
+  font-weight: 400;
+  color: var(--white);
+  font-size: clamp(14px, 1.5vw, 16px);
+}
+footer .footer_top_wrapper .useful_links li a:hover {
+  color: var(--dark);
+}
+
+footer .footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 1px solid #7780f1;
+  padding: 30px 0;
+}
+footer .footer_bottom .footer_bottom_item p {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(12px, 1.5vw, 15px);
+  font-weight: 400;
+}
+footer .footer_bottom .footer_bottom_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer_bottom .footer_bottom_item a {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(12px, 1.5vw, 15px);
+  font-weight: 400;
+}
+footer .footer_bottom .footer_bottom_item a:hover {
+  color: var(--dark);
+}
+/* footer section end */
+/* ---------------------------------------------- */
+
 /* responsive design start */
 @media (max-width: 1200px) {
   /* reward section */
@@ -827,6 +909,13 @@ input:focus {
   /* partners section */
   #parnters_section .partners_content_wrapper {
     padding: 100px 20px;
+  }
+  footer .section_padd {
+    padding: 0px 0 76px;
+  }
+
+  footer .footer_top_wrapper {
+    padding: 0 20px;
   }
   /* partners section */
 }

@@ -600,17 +600,17 @@
 
             <!-- partners content image start -->
             <div class="partners_content">
-                <img src="/Assets/Images/home/partner-1.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-2.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-1.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-2.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-1.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-2.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-1.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-2.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-1.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-2.svg" alt="image" />
-                <img src="/Assets/Images/home/partner-1.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-1.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-2.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-1.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-2.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-1.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-2.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-1.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-2.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-1.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-2.svg" alt="image" />
+              <img src="/Assets/Images/home/partner-1.svg" alt="image" />
             </div>
             <!-- partners content image end -->
           </div>
@@ -621,7 +621,111 @@
     <!-- Main section end -->
 
     <!-- Footer section start -->
-    <footer></footer>
+    <footer>
+      <div class="footer_top section_padd" id="contact">
+        <div class="container">
+          <div class="footer_top_wrapper">
+            <div class="row">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6 mt-5">
+                <img
+                  class="footer_logo"
+                  src="/Assets/Images/logo.svg"
+                  alt="logo"
+                />
+                <div class="footer_address">
+                  <p>
+                    <span class="address_info">Manzil:</span> O’zbekiston,
+                    Toshkent sh., Uchtepa tumani, Shirin mavzesi 1A uy
+                  </p>
+                  <p>
+                    <span class="address_info">Telefon:</span>
+                    +998 71 000 00 00
+                  </p>
+                  <p>
+                    <span class="address_info">Fax:</span>
+                    +998 71 000 00 01
+                  </p>
+                  <p>
+                    <span class="address_info">e-mail:</span>
+                    info@oyu.uz
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-5">
+                <h4 class="footer_links_header mb_25">Asosiy sahifalar</h4>
+                <ul class="useful_links mb_35">
+                  <li><a href="#">Asosiy</a></li>
+                  <li><a href="#">Mukofot haqida</a></li>
+                  <li><a href="#">Nomzotlar</a></li>
+                  <li><a href="#">G'oliblar</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-8 col-md-8 col-lg-3 col-xl-2 mt-5">
+                <h4 class="footer_links_header mb_25">Qo'shimcha manba'lar</h4>
+                <ul class="useful_links mb_35">
+                  <li><a href="#">Glereya</a></li>
+                  <li><a href="#">Yangiliklar</a></li>
+                  <li><a href="#">Kontaktlar</a></li>
+                  <li><a href="#">Hamkorlar uchun</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-12 col-xl-2 mt-5">
+                <h4 class="footer_links_header mb_25">Ijtimoiy tarmoqlar</h4>
+                <ul class="useful_links mb_20">
+                  <li class="social_media mb_15">
+                    <a href="#">
+                      <img
+                        src="/Assets/Images/footer/Facebook.svg"
+                        alt="image"
+                      />
+                      Facebook
+                    </a>
+                  </li>
+                  <li class="social_media mb_15">
+                    <a href="#">
+                      <img
+                        src="/Assets/Images/footer/Instagram.svg"
+                        alt="image"
+                      />
+                      Instagram
+                    </a>
+                  </li>
+                  <li class="social_media mb_15">
+                    <a href="#">
+                      <img src="/Assets/Images/footer/X.svg" alt="image" />
+                      Twitter
+                    </a>
+                  </li>
+                  <li class="social_media mb_15">
+                    <a href="#">
+                      <img
+                        src="/Assets/Images/footer/LinkedIn.svg"
+                        alt="image"
+                      />
+                      Linkedin
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer_bottom">
+          <div class="footer_bottom_item">
+            <p>
+              © 2024 O’zbekiston yozuvchilar uyushmasi. Barcha xizmatlar
+              litsenziyalangan
+            </p>
+          </div>
+          <div class="footer_bottom_item">
+            <a href="https://webline.uz">Ommaviy oferta</a>
+            <a href="https://webline.uz">Foydalanish qoidalari</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Footer section end -->
 
     <script
@@ -633,34 +737,34 @@
 
     <script>
       // ========================== dropdown ==========================
-      document
-        .querySelector(".special_content_title")
-        .addEventListener("click", function (event) {
-          event.preventDefault();
-          const dropdownMenu = this.nextElementSibling;
-          dropdownMenu.classList.toggle("show");
-        });
+      //   document
+      //     .querySelector(".special_content_title")
+      //     .addEventListener("click", function (event) {
+      //       event.preventDefault();
+      //       const dropdownMenu = this.nextElementSibling;
+      //       dropdownMenu.classList.toggle("show");
+      //     });
 
-      document.addEventListener("click", function (event) {
-        const dropdownMenu = document.querySelector(".dropdown-menu");
-        if (
-          !event.target.closest(".special_content_title") &&
-          dropdownMenu.classList.contains("show")
-        ) {
-          dropdownMenu.classList.remove("show");
-        }
-      });
+      //   document.addEventListener("click", function (event) {
+      //     const dropdownMenu = document.querySelector(".dropdown-menu");
+      //     if (
+      //       !event.target.closest(".special_content_title") &&
+      //       dropdownMenu.classList.contains("show")
+      //     ) {
+      //       dropdownMenu.classList.remove("show");
+      //     }
+      //   });
 
       // ========================== NAV links ==========================
-      const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-      navLinks.forEach((link) => {
-        link.addEventListener("click", (e) => {
-          navLinks.forEach((l) => {
-            l.classList.remove("active");
-          });
-          e.target.classList.add("active");
-        });
-      });
+      //   const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+      //   navLinks.forEach((link) => {
+      //     link.addEventListener("click", (e) => {
+      //       navLinks.forEach((l) => {
+      //         l.classList.remove("active");
+      //       });
+      //       e.target.classList.add("active");
+      //     });
+      //   });
 
       // ========================== Special opportunities ==========================
       //   const fontSizeRange = document.getElementById(
