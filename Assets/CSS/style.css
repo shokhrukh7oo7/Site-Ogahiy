@@ -13,7 +13,6 @@
 * {
   margin: 0;
   padding: 0;
-  transition: all 0.5s ease;
   font-family: "Roboto", sans-serif;
 }
 
@@ -98,6 +97,41 @@ input:focus {
   justify-content: space-between;
   align-items: center;
   padding: 11px 0;
+}
+.header_top_wrapper .header_wrapper_block .language_wrapper .dropdown {
+  display: none;
+}
+.header_top_wrapper .header_wrapper_block .language_wrapper .dropdown .dropdown-item.active {
+  font-weight: bold;
+  color: var(--white);
+}
+.header_top_wrapper
+  .header_wrapper_block
+  .language_wrapper
+  .dropdown
+  .language_btn {
+  color: var(--white);
+}
+.header_top_wrapper
+  .header_wrapper_block
+  .language_wrapper
+  .dropdown
+  .language_btn:active {
+  border-color: transparent;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  border-color: transparent;
+}
+.dropdown-item:hover {
+  background-color: var(--white-dark);
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--white-purple);
 }
 .header_top_wrapper
   .header_wrapper_block
@@ -930,6 +964,16 @@ footer .footer_bottom .footer_bottom_item a:hover {
 }
 
 @media (max-width: 576px) {
+  .header_top_wrapper .header_wrapper_block .language_wrapper .dropdown {
+    display: block;
+  }
+  .header_top_wrapper
+    .header_wrapper_block
+    .language_wrapper
+    .language_links_wrapper
+    .language_items {
+    display: none;
+  }
   #banner_section .banner .banner_content {
     top: 30%;
   }
@@ -953,37 +997,6 @@ footer .footer_bottom .footer_bottom_item a:hover {
 }
 
 @media (max-width: 476px) {
-  .language_item a {
-    display: inline-block;
-    width: 1.6rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-align: center;
-    margin-top: 5px;
-  }
-
-  .language_item:nth-child(1) a::after {
-    content: "Ўз";
-  }
-  .language_item:nth-child(2) a::after {
-    content: "O'z";
-  }
-  .language_item:nth-child(3) a::after {
-    content: "Ру";
-  }
-  .language_item:nth-child(4) a::after {
-    content: "En";
-  }
-
-  /* .language_item a {
-    visibility: hidden;
-  } */
-
-  /* .language_item a::after {
-    visibility: visible;
-  } */
-
   /* news section  */
   #news_section
     .news_section_wrapper
