@@ -121,6 +121,15 @@ input:focus {
 }
 .header_top_wrapper
   .header_wrapper_block
+  .language_wrapper
+  .language_links_wrapper
+  .language_items
+  .language_item
+  .item.active {
+  border-bottom: 2px solid var(--white);
+}
+.header_top_wrapper
+  .header_wrapper_block
   .special_block_wrapper
   .special_content {
   display: flex;
@@ -157,8 +166,8 @@ input:focus {
   box-shadow: 0 0 0 0.05rem;
 }
 .navbar .navbar-nav .nav-item .nav-link {
-  /* font-size: clamp(12px, 1.4vw, 16px); */
-  font-size: var(--fontSize);
+  font-size: clamp(12px, 1.4vw, 16px);
+  /* font-size: var(--fontSize); */
   font-weight: 500;
   color: var(--dark);
   padding: 8px 0;
