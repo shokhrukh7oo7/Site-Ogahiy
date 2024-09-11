@@ -730,7 +730,7 @@ input:focus {
 /* partners section start */
 #parnters_section .partners_content_wrapper {
   padding: 100px 72px;
-  background-color: rgba(248, 250, 252, 1)
+  background-color: rgba(248, 250, 252, 1);
 }
 #parnters_section .partners_content_wrapper .partners_content {
   display: flex;
@@ -742,6 +742,15 @@ input:focus {
 #parnters_section .partners_content_wrapper .partners_content img {
   width: 100%;
   max-width: 140px;
+}
+#parnters_section .partners_content_wrapper .partneers_header_title {
+  color: var(--dark);
+  font-size: clamp(16px, 2vw, 26px);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 /* partners section end */
 /* ---------------------------------------------- */
