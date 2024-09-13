@@ -40,9 +40,19 @@
     margin: 10px 0;
   }
   /* news section */
+  /* ====================================================== */
+  /* ABOUT US PAGE CUSTOM CSS START */
+  #about_us_section_wrapper .about_us_wrapper {
+    padding: 30px 60px;
+  }
+  #about_us_section_wrapper .about_us_wrapper .about_us_header {
+    margin-bottom: 30px;
+  }
+  /* ABOUT US PAGE CUSTOM CSS END */
 }
 
 @media (max-width: 768px) {
+  /* HOME PAGE CUSTOM CSS END */
   /* news section */
   #news_section .news_section_wrapper {
     padding: 100px 20px;
@@ -78,10 +88,24 @@
   footer .footer_top_wrapper {
     padding: 0 20px;
   }
-  /* partners section */
+  /* HOME PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* ABOUT US PAGE CUSTOM CSS START */
+  #about_us_section_wrapper .about_us_wrapper {
+    padding: 30px 40px;
+  }
+  #about_us_section_wrapper .about_us_wrapper .about_us_header {
+    margin-bottom: 30px;
+  }
+  #about_us_section_wrapper .about_us_wrapper .about_us_content_wrapper ul {
+    margin-left: 20px;
+}
+  /* ABOUT US PAGE CUSTOM CSS END */
 }
 
 @media (max-width: 576px) {
+  /* ====================================================== */
+  /* HOME PAGE CUSTOM CSS START */
   .header_top_wrapper .header_wrapper_block .language_wrapper .dropdown {
     display: block;
   }
@@ -112,6 +136,16 @@
     padding: 80px 40px;
   }
   /* services section  */
+  /* HOME PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* ABOUT US PAGE CUSTOM CSS START */
+  #about_us_section_wrapper .about_us_wrapper {
+    padding: 20px 20px;
+  }
+  #about_us_section_wrapper .about_us_wrapper .about_us_header {
+    margin-bottom: 20px;
+  }
+  /* ABOUT US PAGE CUSTOM CSS END */
 }
 
 @media (max-width: 476px) {
