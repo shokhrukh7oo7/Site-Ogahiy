@@ -800,6 +800,22 @@ body {
 
 /* ---------------------------------------------- */
 
+/* CONDIDATE PAGE START */
+/* .card_item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card_item img {
+  width: 100%;
+  max-width: 300px;
+} */
+/* CONDIDATE PAGE END */
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
 /* FOOTER CUSTOM CSS START */
 footer {
   background-color: var(--purple);
