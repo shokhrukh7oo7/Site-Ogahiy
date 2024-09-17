@@ -886,7 +886,7 @@ body {
 /* GALERY PAGE CUSTOM CSS START */
 #galery_section_wrapper .galery_wrapper {
   background-color: var(--white);
-  padding: 70px 40px;
+  padding: 100px 40px;
 }
 #galery_section_wrapper .galery_wrapper .galery_cards_wrapper img {
   width: 100%;
