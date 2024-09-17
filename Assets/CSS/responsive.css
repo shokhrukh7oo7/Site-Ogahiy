@@ -61,6 +61,19 @@
     text-align: center;
   }
   /* CONDIDATE PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* WINNERS PAGE CUSTOM CSS START */
+  #winners_section_wrapper .winners_wrapper {
+    padding: 50px 40px;
+  }
+  #winners_section_wrapper
+    .winners_wrapper
+    .winners_cards_wrapper
+    .card_item_title_wrapper {
+    margin: 10px 0;
+  }
+  /* WINNERS PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 
 @media (max-width: 768px) {
@@ -165,6 +178,14 @@
   }
   /* CONDIDATE PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* WINNERS PAGE CUSTOM CSS START */
+  #winners_section_wrapper .winners_wrapper {
+    padding: 20px 40px;
+  }
+  #winners_section_wrapper .winners_wrapper .winners_header {
+    margin-bottom: 20px;
+  }
+  /* WINNERS PAGE CUSTOM CSS END */
   /* ====================================================== */
 }
 
