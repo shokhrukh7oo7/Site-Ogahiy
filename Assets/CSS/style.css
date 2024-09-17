@@ -801,6 +801,47 @@ body {
 /* ---------------------------------------------- */
 
 /* CONDIDATE PAGE START */
+#condidate_section_wrapper .condidate_wrapper {
+  background-color: var(--white);
+  padding: 100px 40px;
+}
+#condidate_section_wrapper .condidate_wrapper .condidate_header {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: clamp(20px, 4vw, 48px);
+  color: var(--dark);
+}
+#condidate_section_wrapper .condidate_wrapper .condidate_cards_wrapper img {
+  width: 100%;
+}
+#condidate_section_wrapper
+  .condidate_wrapper
+  .condidate_cards_wrapper
+  .card_item_title_wrapper
+  .card_first_title {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: clamp(13px, 1.5vw, 16px);
+}
+#condidate_section_wrapper
+  .condidate_wrapper
+  .condidate_cards_wrapper
+  .card_item_title_wrapper
+  .card_second_title {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: clamp(16px, 2vw, 24px);
+}
+#condidate_section_wrapper
+  .condidate_wrapper
+  .condidate_cards_wrapper
+  .card_item_title_wrapper
+  .card_third_title {
+  color: var(--dark);
+  font-weight: 400;
+  font-size: clamp(13px, 2vw, 16px);
+}
+
 /* .card_item {
   display: flex;
   align-items: center;
