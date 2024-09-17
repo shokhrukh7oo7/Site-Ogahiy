@@ -813,6 +813,7 @@ body {
 }
 #condidate_section_wrapper .condidate_wrapper .condidate_cards_wrapper img {
   width: 100%;
+  border-radius: 16px;
 }
 #condidate_section_wrapper
   .condidate_wrapper
