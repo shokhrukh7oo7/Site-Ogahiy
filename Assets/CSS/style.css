@@ -884,7 +884,28 @@ body {
 /* WINNERS PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 /* GALERY PAGE CUSTOM CSS START */
-
+#galery_section_wrapper .galery_wrapper {
+  background-color: var(--white);
+  padding: 70px 40px;
+}
+#galery_section_wrapper .galery_wrapper .galery_cards_wrapper img {
+  width: 100%;
+  max-width: 416px;
+  border-radius: 16px;
+}
+#galery_section_wrapper .galery_wrapper .galery_header {
+  font-size: clamp(20px, 4vw, 48px);
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark);
+}
+#galery_section_wrapper .galery_wrapper .galery_title {
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--dark);
+}
 /* GALERY PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
