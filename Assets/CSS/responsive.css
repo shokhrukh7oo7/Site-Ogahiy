@@ -83,6 +83,15 @@
   }
   /* GALERY PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* OFERTA PAGE CUSTOM CSS START */
+  #public_oferta_section_wrapper .oferta_wrapper .oferta_header {
+    margin-bottom: 30px;
+  }
+  #public_oferta_section_wrapper .oferta_wrapper {
+    padding: 30px 60px;
+  }
+  /* OFERTA PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 
 @media (max-width: 768px) {
@@ -143,6 +152,15 @@
     margin-bottom: 30px;
   }
   /* GALERY PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* OFERTA PAGE CUSTOM CSS START */
+  #public_oferta_section_wrapper .oferta_wrapper {
+    padding: 30px 40px;
+  }
+  #public_oferta_section_wrapper .oferta_wrapper .oferta_content_wrapper ul {
+    margin-left: 20px;
+  }
+  /* OFERTA PAGE CUSTOM CSS END */
   /* ====================================================== */
 }
 
@@ -220,6 +238,14 @@
   }
   /* NEWS PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* OFERTA PAGE CUSTOM CSS START */
+  #public_oferta_section_wrapper .oferta_wrapper .oferta_header {
+    margin-bottom: 20px;
+  }
+  #public_oferta_section_wrapper .oferta_wrapper {
+    padding: 20px 20px;
+  }
+  /* OFERTA PAGE CUSTOM CSS END */
   /* ====================================================== */
 }
 

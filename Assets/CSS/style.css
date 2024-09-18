@@ -234,7 +234,7 @@ body {
   display: inline-block;
   position: relative;
 }
-#banner_section .banner .banner_content .banner_content_header span {
+/* #banner_section .banner .banner_content .banner_content_header span {
   position: absolute;
   top: -60px;
   background-color: rgb(0, 0, 0, 0.5);
@@ -256,7 +256,7 @@ body {
 }
 #banner_section .banner .banner_content .banner_content_header:hover span {
   display: block;
-}
+} */
 
 #banner_section .banner .banner_content .banner_content_title {
   width: 100%;
@@ -1025,12 +1025,68 @@ body {
   .news_card_wrapper
   .item
   .item_content
-  .item_content_btn a{
-    font-size: clamp(14px, 2vw, 16px);
-    font-weight: 500;
-    color: var(--purple);
-  }
+  .item_content_btn
+  a {
+  font-size: clamp(14px, 2vw, 16px);
+  font-weight: 500;
+  color: var(--purple);
+}
 /* NEWS PAGE CUSTOM CSS END */
+/* ---------------------------------------------- */
+/* OFERTA PAGE CUSTOM CSS START */
+#public_oferta_section_wrapper .oferta_wrapper {
+  background-color: var(--white);
+  padding: 100px 40px;
+}
+#public_oferta_section_wrapper .oferta_wrapper .oferta_header {
+  font-size: clamp(22px, 5vw, 48px);
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 45px;
+  text-align: center;
+}
+#public_oferta_section_wrapper .oferta_wrapper .oferta_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#public_oferta_section_wrapper
+  .oferta_wrapper
+  .oferta_content_wrapper
+  .oferta_title {
+  font-size: clamp(14px, 1.3vw, 24px);
+  font-weight: 400;
+  color: var(--dark);
+  margin: 0;
+}
+#public_oferta_section_wrapper
+  .oferta_wrapper
+  .oferta_content_wrapper
+  .oferta_title
+  .purpose_title {
+  font-weight: 600;
+}
+#public_oferta_section_wrapper
+  .oferta_wrapper
+  .oferta_content_wrapper
+  .oferta_middle_header_title {
+  font-size: clamp(14px, 1.3vw, 24px);
+  font-weight: 600;
+  color: var(--dark);
+}
+#public_oferta_section_wrapper .oferta_wrapper .oferta_content_wrapper ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: disc;
+  margin-left: 40px;
+}
+#public_oferta_section_wrapper .oferta_wrapper .oferta_content_wrapper ul li {
+  font-size: clamp(14px, 1.3vw, 24px);
+  font-weight: 400;
+  color: var(--dark);
+}
+/* OFERTA PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 
 /* FOOTER CUSTOM CSS START */
