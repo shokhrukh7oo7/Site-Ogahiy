@@ -106,4 +106,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // Galery page card (click) end
 // ================================================================================
-
