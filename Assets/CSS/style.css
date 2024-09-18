@@ -983,6 +983,53 @@ body {
   border-radius: 16px;
   cursor: pointer;
 }
+#news_section_wrapper .news_wrapper .news_card_wrapper .item .item_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+#news_section_wrapper
+  .news_wrapper
+  .news_card_wrapper
+  .item
+  .item_content
+  .item_content_title {
+  font-size: clamp(14px, 2vw, 24px);
+  font-weight: 700;
+  color: var(--dark);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#news_section_wrapper
+  .news_wrapper
+  .news_card_wrapper
+  .item
+  .item_content
+  .item_content_description {
+  font-size: clamp(12px, 2vw, 16px);
+  font-weight: 400;
+  color: var(--dark);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#news_section_wrapper
+  .news_wrapper
+  .news_card_wrapper
+  .item
+  .item_content
+  .item_content_btn a{
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 500;
+    color: var(--purple);
+  }
 /* NEWS PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 

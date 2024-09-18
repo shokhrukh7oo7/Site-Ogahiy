@@ -214,6 +214,13 @@
   }
   /* GALERY PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* NEWS PAGE CUSTOM CSS START */
+  #news_section_wrapper .news_wrapper .news_card_wrapper .item .item_content {
+    padding: 10px;
+  }
+  /* NEWS PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* ====================================================== */
 }
 
 @media (max-width: 476px) {
