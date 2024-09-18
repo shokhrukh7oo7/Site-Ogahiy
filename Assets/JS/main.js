@@ -60,3 +60,50 @@ question_accordions.forEach((question_accordion) => {
 // Home page Question (accordion) section end
 
 // ================================================================================
+// Galery page card (click) start
+document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll(".galery_cards_wrapper img");
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImg");
+  const closeBtn = document.querySelector(".close");
+  const prevBtn = document.querySelector(".prev");
+  const nextBtn = document.querySelector(".next");
+
+  let currentImageIndex = 0;
+
+  // Open modal when clicking on an image
+  images.forEach((img, index) => {
+    img.addEventListener("click", () => {
+      currentImageIndex = index;
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    });
+  });
+
+  // Close modal
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // Next image
+  nextBtn.addEventListener("click", () => {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    modalImg.src = images[currentImageIndex].src;
+  });
+
+  // Previous image
+  prevBtn.addEventListener("click", () => {
+    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+    modalImg.src = images[currentImageIndex].src;
+  });
+
+  // Close modal when clicking outside the image
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+});
+// Galery page card (click) end
+// ================================================================================
+
