@@ -1,4 +1,22 @@
 /* responsive design start */
+@media (max-width: 1300px) {
+  /* ====================================================== */
+  /* CONTACT PAGE CUSTOM CSS START */
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_left
+    .contact_social_wrapper
+    .contact_social_items_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    align-items: center;
+  }
+  /* CONTACT PAGE CUSTOM CSS END */
+  /* ====================================================== */
+}
+
 @media (max-width: 1200px) {
   /* reward section */
   #reward_section
@@ -101,6 +119,53 @@
   }
   /* NEWS DESCRIPTION PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* CONTACT PAGE CUSTOM CSS START */
+  #contact_section_wrapper .contact_wrapper {
+    background-color: var(--white);
+    padding: 80px 50px;
+  }
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_left
+    .contact_info_wrapper
+    .contact_info {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_right
+    .user_info
+    input,
+  textarea {
+    width: 100%;
+    max-width: 992px;
+  }
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_right
+    .contact_btn {
+    width: 100%;
+    max-width: 992px;
+  }
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_left
+    .contact_social_wrapper
+    .contact_social_items_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    align-items: center;
+  }
+  /* CONTACT PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 
 @media (max-width: 768px) {
@@ -178,6 +243,13 @@
     padding: 10px 10px;
   }
   /* NEWS DESCRIPTION PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* CONTACT PAGE CUSTOM CSS START */
+  #contact_section_wrapper .contact_wrapper {
+    background-color: var(--white);
+    padding: 60px 40px;
+  }
+  /* CONTACT PAGE CUSTOM CSS END */
   /* ====================================================== */
 }
 
@@ -284,6 +356,27 @@
   }
   /* NEWS DESCRIPTION PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* CONTACT PAGE CUSTOM CSS START */
+  #contact_section_wrapper .contact_wrapper {
+    background-color: var(--white);
+    padding: 40px 20px;
+  }
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_left
+    .contact_info_wrapper
+    .contact_info
+    .contact_info_head {
+    font-size: clamp(14px, 2.5vw, 24px);
+    font-weight: 700;
+    width: 0;
+    max-width: 0;
+    color: var(--dark);
+  }
+
+  /* CONTACT PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 
 @media (max-width: 476px) {
@@ -296,5 +389,20 @@
     padding: 20px 15px;
   }
   /* news section end */
+  /* ====================================================== */
+  /* CONTACT PAGE CUSTOM CSS START */
+  #contact_section_wrapper
+    .contact_wrapper
+    .contact_top
+    .contact_top_left
+    .contact_social_wrapper
+    .contact_social_items_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    align-items: center;
+  }
+  /* CONTACT PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 /* responsive design  */

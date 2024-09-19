@@ -1257,7 +1257,203 @@ body {
 /* OFERTA PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 /* CONTACT PAGE CUSTOM CSS START */
-
+#contact_section_wrapper .contact_wrapper {
+  background-color: var(--white);
+  padding: 100px 60px;
+}
+#contact_section_wrapper .contact_wrapper .contact_top .contact_top_left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_left_header {
+  font-size: clamp(22px, 4vw, 48px);
+  font-weight: 700;
+  color: var(--dark);
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_info_wrapper
+  .contact_info {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 50px;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_info_wrapper
+  .contact_info
+  .contact_info_head {
+  font-size: clamp(14px, 2.5vw, 24px);
+  font-weight: 700;
+  width: 100%;
+  max-width: 150px;
+  color: var(--dark);
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_info_wrapper
+  .contact_info
+  .contact_info_right_title {
+  font-size: clamp(14px, 2vw, 22px);
+  font-weight: 400;
+  color: var(--dark);
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_info_wrapper
+  .contact_info
+  .contact_link {
+  color: var(--purple);
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_social_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_social_wrapper
+  .contact_social_header {
+  font-size: clamp(14px, 2.5vw, 22px);
+  font-weight: 700;
+  color: var(--dark);
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_social_wrapper
+  .contact_social_items_wrapper {
+  /* display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  align-items: center;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_social_wrapper
+  .contact_social_items_wrapper
+  .contact_social_item {
+  display: flex;
+  align-items: center;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_left
+  .contact_social_wrapper
+  .contact_social_items_wrapper
+  .contact_social_item
+  a {
+  background-color: var(--white-dark);
+  font-size: clamp(10px, 1.5vw, 14px);
+  font-weight: 400;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--purple);
+  width: 100%;
+}
+#contact_section_wrapper .contact_wrapper .contact_top .contact_top_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_right
+  .contact_right_header {
+  font-size: clamp(22px, 4vw, 48px);
+  font-weight: 700;
+  color: var(--dark);
+}
+#contact_section_wrapper .contact_wrapper .contact_top .contact_top_right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_right
+  .user_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_right
+  .user_info
+  label {
+  margin-left: 10px;
+  font-size: clamp(12px, 1.4vw, 14px);
+  font-weight: 500;
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_right
+  .user_info
+  input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 13px 16px;
+  border-radius: 10px;
+  border-color: var(--second-black-white);
+}
+#contact_section_wrapper
+  .contact_wrapper
+  .contact_top
+  .contact_top_right
+  .contact_btn {
+  background-color: var(--btn-disabled-color);
+  font-size: clamp(12px, 2vw, 16px);
+  font-weight: 500;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 400px;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.1rem var(--purple);
+}
+#contact_section_wrapper .contact_wrapper .contact_bottom iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1440 / 660;
+  border-radius: 20px;
+}
 /* CONTACT PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 
