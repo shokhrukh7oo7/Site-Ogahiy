@@ -36,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 11px 0;
+  padding: 8px 0;
 }
 .header_top_wrapper .header_wrapper_block .language_wrapper .dropdown {
   display: none;
@@ -1457,7 +1457,41 @@ textarea {
 }
 /* CONTACT PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
-
+/* PAGE NOT FOUND (404) START */
+#page_not_found_section_wrapper .page_not_found_wrapper {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+#page_not_found_section_wrapper .page_not_found_wrapper .title_404 {
+  font-size: clamp(50px, 40vw, 470px);
+  color: var(--dark);
+  font-weight: 700;
+  margin: 0;
+}
+#page_not_found_section_wrapper .page_not_found_wrapper .title_description {
+  font-size: clamp(16px, 4vw, 32px);
+  font-weight: 500;
+  color: var(--dark);
+}
+#page_not_found_section_wrapper .page_not_found_wrapper .page_not_found_btns {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+#page_not_found_section_wrapper .page_not_found_wrapper .page_not_found_btns a {
+  font-size: clamp(13px, 1.5vw, 20px);
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: var(--purple);
+  color: var(--white);
+}
+/* PAGE NOT FOUND (404) END */
+/* ---------------------------------------------- */
 /* FOOTER CUSTOM CSS START */
 footer {
   background-color: var(--purple);
