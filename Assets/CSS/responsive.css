@@ -92,6 +92,15 @@
   }
   /* OFERTA PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* NEWS DESCRIPTION PAGE CUSTOM CSS START */
+  #news_description_section_wrapper
+    .news_description_wrapper
+    .news_description_content
+    ul {
+    margin-left: 30px;
+  }
+  /* NEWS DESCRIPTION PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 
 @media (max-width: 768px) {
@@ -161,6 +170,14 @@
     margin-left: 20px;
   }
   /* OFERTA PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* NEWS DESCRIPTION PAGE CUSTOM CSS START */
+  #news_description_section_wrapper
+    .news_description_wrapper
+    .news_description_content {
+    padding: 10px 10px;
+  }
+  /* NEWS DESCRIPTION PAGE CUSTOM CSS END */
   /* ====================================================== */
 }
 
@@ -252,6 +269,20 @@
     padding: 0 20px 50px;
   }
   /* BANNER DESCRIPTION PAGE CUSTOM CSS END */
+  /* ====================================================== */
+  /* NEWS DESCRIPTION PAGE CUSTOM CSS START */
+  #news_description_section_wrapper
+    .news_description_wrapper
+    .news_description_content
+    ul {
+    margin-left: 15px;
+  }
+  #news_description_section_wrapper
+    .news_description_wrapper
+    .news_description_content {
+    padding: 0;
+  }
+  /* NEWS DESCRIPTION PAGE CUSTOM CSS END */
   /* ====================================================== */
 }
 
