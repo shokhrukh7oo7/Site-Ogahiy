@@ -247,6 +247,12 @@
   }
   /* OFERTA PAGE CUSTOM CSS END */
   /* ====================================================== */
+  /* BANNER DESCRIPTION PAGE CUSTOM CSS START */
+  #banner_description_section_wrapper .banner_description_wrapper {
+    padding: 0 20px 50px;
+  }
+  /* BANNER DESCRIPTION PAGE CUSTOM CSS END */
+  /* ====================================================== */
 }
 
 @media (max-width: 476px) {

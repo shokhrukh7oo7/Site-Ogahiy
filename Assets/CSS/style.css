@@ -729,6 +729,76 @@ body {
 /* HOME PAGE CUSTOM CSS END */
 
 /* ---------------------------------------------- */
+/* BANNER DESCRIPTION CUSTOM CSS START */
+#banner_description_section_wrapper .banner_description_wrapper {
+  background-color: var(--white);
+  padding: 0 40px 50px;
+}
+#banner_description_section_wrapper
+  .banner_description_wrapper
+  .banner_description_img {
+  background-position: 25% 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: auto;
+  aspect-ratio: 1440 / 400;
+  filter: brightness(0.7);
+  z-index: 1;
+}
+#banner_description_section_wrapper .banner_description_wrapper .banner_back {
+  background-color: var(--purple);
+  color: var(--white);
+  font-weight: 500;
+  font-size: clamp(12px, 1.5vw, 18px);
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px 0;
+  transition: 0.3s ease;
+}
+#banner_description_section_wrapper
+  .banner_description_wrapper
+  .banner_back:hover {
+  background-color: var(--white-purple);
+}
+#banner_description_section_wrapper
+  .banner_description_wrapper
+  .banner_description_img
+  .banner_description_header {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: var(--white);
+  font-size: clamp(14px, 5vw, 56px);
+  font-weight: 700;
+  z-index: 2;
+}
+#banner_description_section_wrapper
+  .banner_description_wrapper
+  .banner_description_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+#banner_description_section_wrapper
+  .banner_description_wrapper
+  .banner_description_content
+  .banner_description_content_header {
+  font-size: clamp(18px, 4vw, 36px);
+  font-weight: 700;
+  color: var(--dark);
+}
+#banner_description_section_wrapper
+  .banner_description_wrapper
+  .banner_description_content
+  .banner_decription_content_title {
+  font-size: clamp(13px, 2vw, 24px);
+  font-weight: 400;
+  color: var(--dark);
+}
+/* BANNER DESCRIPTION CUSTOM CSS END */
+/* ---------------------------------------------- */
 
 /* ABOUT PURPOSE (Mukofotlar Haqida) PAGE START */
 #about_us_section_wrapper .about_us_wrapper {
