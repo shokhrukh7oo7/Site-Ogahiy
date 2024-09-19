@@ -129,6 +129,7 @@
 .navbar {
   padding: 4px 0;
   background-color: var(--white) !important;
+  box-shadow: #333 0px 3px 11px -7px;
 }
 .navbar-toggler {
   border-color: var(--purple);
