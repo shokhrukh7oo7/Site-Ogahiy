@@ -202,8 +202,8 @@
 body {
   background-image: url("/Assets/Images/home/bg.png");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  /* background-size: cover; */
 }
 #banner_section .banner {
   background-image: url("/Assets/Images/home/banner-bg.JPG");
@@ -1255,6 +1255,10 @@ body {
   color: var(--dark);
 }
 /* OFERTA PAGE CUSTOM CSS END */
+/* ---------------------------------------------- */
+/* CONTACT PAGE CUSTOM CSS START */
+
+/* CONTACT PAGE CUSTOM CSS END */
 /* ---------------------------------------------- */
 
 /* FOOTER CUSTOM CSS START */
