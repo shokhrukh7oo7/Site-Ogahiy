@@ -1115,10 +1115,10 @@ body {
   padding: 0 10px;
 }
 #galery_section_wrapper .modal-controls .prev {
-  left: 10%;
+  left: 75px;
 }
 #galery_section_wrapper .modal-controls .next {
-  right: 10%;
+  right: 75px;
 }
 /* modal */
 #galery_section_wrapper .galery_wrapper .galery_cards_wrapper img {
