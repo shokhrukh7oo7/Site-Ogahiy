@@ -250,7 +250,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-5">
                   <div class="contact_top_right">
                     <h1 class="contact_right_header">Biz bilan bog'lanish</h1>
-                    <form>
+                    <form id="userForm">
                       <div class="user_info">
                         <label for="name" class="form_label_title">
                           Ismingiz *
@@ -260,9 +260,9 @@
                           type="text"
                           id="name"
                           name="name"
-                          required
                           placeholder="Ismingizni kiriting"
                         />
+                        <p class="error"></p>
                       </div>
                       <div class="user_info">
                         <label for="phone" class="form_label_title">
@@ -273,9 +273,9 @@
                           type="tel"
                           id="phone"
                           name="phone"
-                          required
                           placeholder="+998 00 000 00 00"
                         />
+                        <p class="error"></p>
                       </div>
                       <div class="user_info">
                         <label for="email" class="form_label_title">
@@ -286,9 +286,9 @@
                           type="email"
                           id="email"
                           name="email"
-                          required
                           placeholder="Emailingizni kiriting"
                         />
+                        <p class="error"></p> 
                       </div>
                       <div class="user_info">
                         <label for="comment" class="form_label_title">
@@ -299,10 +299,8 @@
                           type="text"
                           id="comment"
                           name="comment"
-                          required
                           placeholder="Izoh qoldirish"
-                        >
-                        </textarea>
+                          ></textarea>
                       </div>
                       <button type="submit" class="btn contact_btn">
                         Yuborish
@@ -456,6 +454,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../../Assets/JS/main.js"></script>
   </body>
 </html>

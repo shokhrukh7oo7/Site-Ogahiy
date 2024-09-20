@@ -106,3 +106,62 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // Galery page card (click) end
 // ================================================================================
+// CONTACT PAGE FORM START
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("userForm");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // Предотвращаем отправку формы
+    let isValid = true;
+
+    // Получаем все input и textarea
+    const inputs = document.querySelectorAll("#userForm .form-control");
+
+    inputs.forEach(function (input) {
+      const errorElement = input.nextElementSibling; // Находим <p class="error">
+      if (errorElement && errorElement.classList.contains("error")) {
+        if (!input.value.trim()) {
+          errorElement.textContent = "Bu maydon bo'sh bo'lmasligi kerak";
+          errorElement.style.color = "red";
+          input.style.borderColor = "red";
+          isValid = false;
+        } else {
+          errorElement.textContent = ""; // Очищаем текст ошибки
+          input.style.borderColor = ""; // Убираем красную границу
+        }
+      }
+    });
+
+    // Проверка телефона на соответствие формату
+    const phoneInput = document.getElementById("phone");
+    const phoneError = phoneInput.nextElementSibling;
+    const phonePattern = /^\+998\s\d{2}\s\d{3}\s\d{2}\s\d{2}$/;
+
+    if (phoneError && phoneError.classList.contains("error")) {
+      if (!phonePattern.test(phoneInput.value.trim())) {
+        phoneError.textContent =
+          "Telefon raqam formati noto'g'ri (+998 00 000 00 00)";
+        phoneError.style.color = "red";
+        phoneInput.style.borderColor = "red";
+        isValid = false;
+      } else {
+        phoneError.textContent = "";
+        phoneInput.style.borderColor = "";
+      }
+    }
+
+    if (isValid) {
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "MUVAFFAQIYATLI YUBORILDI",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      // this.submit(); // Разблокируйте эту строку для отправки формы
+    }
+  });
+});
+
+// CONTACT PAGE FORM END
+// ================================================================================
