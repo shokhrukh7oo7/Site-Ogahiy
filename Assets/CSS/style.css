@@ -1081,10 +1081,17 @@ body {
   max-height: 80%; */
   border: 15px solid #fff;
 }
+#galery_section_wrapper .galery_modal_wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
 #galery_section_wrapper .close {
   position: absolute;
-  top: 6%;
-  right: 19%;
+  top: 27px;
+  right: 27px;
   color: black;
   font-size: 40px;
   font-weight: bold;
@@ -1108,10 +1115,10 @@ body {
   padding: 0 10px;
 }
 #galery_section_wrapper .modal-controls .prev {
-  left: 22%;
+  left: 10%;
 }
 #galery_section_wrapper .modal-controls .next {
-  right: 22%;
+  right: 10%;
 }
 /* modal */
 #galery_section_wrapper .galery_wrapper .galery_cards_wrapper img {

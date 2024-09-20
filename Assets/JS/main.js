@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Проверка телефона на соответствие формату
     const phoneInput = document.getElementById("phone");
     const phoneError = phoneInput.nextElementSibling;
-    const phonePattern = /^\+998\s\d{2}\s\d{3}\s\d{2}\s\d{2}$/;
+    const phonePattern = /^\+?\d{1,3}\s?\(?\d{1,4}?\)?\s?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/;
 
     if (phoneError && phoneError.classList.contains("error")) {
       if (!phonePattern.test(phoneInput.value.trim())) {
