@@ -1,29 +1,4 @@
-/* dropdown start */
-/* .special_content_title {
-  display: flex;
-  align-items: center;
-}
 
-.special_content_title img {
-  margin-right: 10px;
-}
-
-.dropdown-menu {
-  margin-top: 10px;
-}
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.dropdown-menu.show {
-  display: block;
-} */
-/* dropdown end */
 
 /* ---------------------------------------------- */
 
@@ -1589,3 +1564,29 @@ footer .footer_bottom .footer_bottom_item a:hover {
 }
 /* FOOTER CUSTOM CSS END */
 /* ---------------------------------------------- */
+/* dropdown start */
+/* .special_content_title {
+  display: flex;
+  align-items: center;
+}
+
+.special_content_title img {
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  margin-top: 10px;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dropdown-menu.show {
+  display: block;
+} */
+/* dropdown end */
